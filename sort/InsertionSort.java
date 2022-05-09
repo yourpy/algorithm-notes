@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Code06_InsertionSort {
     public static void insertionSort(int[] arr) {
-        if (arr == null || arr.length() < 2) {
+        if (arr == null || arr.length < 2) {
             return;
         }
         
