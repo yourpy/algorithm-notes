@@ -13,7 +13,7 @@ public class Code06_InsertionSort {
         }
     }
     
-    // i和j,数交换
+    // i和j数交换
 	public static void swap(int[] arr, int i, int j) {
 		int tmp = arr[i];
 		arr[i] = arr[j];
