@@ -1,5 +1,8 @@
 // 一个任意两数不相等的有序数组，查找数组中的局部最小值
-// an index i such that a[i-1] < a[i] < a[i+1]
+// 定义何为局部最小值：
+// arr[0] < arr[1]，0位置是局部最小；
+// arr[N-1] < arr[N-2]，N-1位置是局部最小；
+// arr[i-1] > arr[i] < arr[i+1]，i位置是局部最小；
 public class BSAwesome {
 
 	public static int getLessIndex(int[] arr) {
