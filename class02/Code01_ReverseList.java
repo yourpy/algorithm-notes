@@ -26,8 +26,11 @@ public class Code01_ReverseList {
         Node pre = null;
         Node next = null;
         while(head != null) {
+			// 缓存next节点，防止丢失
             next = head.next;
+			// 更改当前节点指向
             head.next = pre;
+			// pre 和 head 同步往后移
             pre = head;
             head = next;
         }
@@ -40,6 +43,7 @@ public class Code01_ReverseList {
         DoubleNode pre = null;
         DoubleNode next = null;
         while (head ! null) {
+			// 逻辑和翻转单链表一样
             next = head.next;
             head.next = pre;
             head.last = next;
