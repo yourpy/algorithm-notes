@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+// 插入排序是把后面的元素插入到前面已经有序的数组部分，所以第二个 for 循环是后面往前找的
 public class Code06_InsertionSort {
     public static void insertionSort(int[] arr) {
         if (arr == null || arr.length < 2) {
